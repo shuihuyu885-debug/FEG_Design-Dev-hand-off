@@ -1,0 +1,2288 @@
+{
+  "$description": "NDS gradient tokens. Exported from the Gradient Paint Styles in the canonical NDS Figma library (NDS / Tokens / Variables library, file RKduL8UHSJyIMVyotTzSZS). Grouped by brand and theme. Do not edit by hand.",
+  "gradient": {
+    "ftn-dark": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1804,
+                0.1804,
+                0.2196
+              ],
+              "alpha": 1,
+              "hex": "#2E2E38"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #2E2E38 0%, #3B3B44 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "FTN Dark/gradient",
+            "figmaStyleKey": "163082dde17c5de85028696685602c160ef9b9c4"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "FTN Dark/overlay-gradient",
+            "figmaStyleKey": "255ff8e0ea77f4da1247dcbbc7e487ecee44d566"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 0.7,
+              "hex": "#3B3B44"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(59, 59, 68, 0.7) 0%, #3B3B44 100%)",
+            "owner": "Product",
+            "figmaStyle": "FTN Dark/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "dcb32dd4331b2ed6f57db0b6f93c283248b284cd"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0,
+              "hex": "#FFDB01"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0.1,
+              "hex": "#FFDB01"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for the primary brand surface.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(255, 219, 1, 0) 0%, rgba(255, 219, 1, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Dark/mk-ako-card",
+            "figmaStyleKey": "8cfbca0b32faeb8266e836cdde534651b944ca76"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#0125FF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0.2,
+              "hex": "#0125FF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for the primary brand surface.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(1, 37, 255, 0) 0%, rgba(1, 37, 255, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Dark/mk-wc-ako-card",
+            "figmaStyleKey": "560c839d68678a872ee57d2da3e2b4442dee740e"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0,
+              "hex": "#FFDB01"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0.25,
+              "hex": "#FFDB01"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for the primary brand surface.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(255, 219, 1, 0) 0%, rgba(255, 219, 1, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Dark/mk-cas-cs-card",
+            "figmaStyleKey": "ee2820c0b3b5686a14c5be245fb780e5e001610a"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.1,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Dark/mk-card-gradient-1",
+            "figmaStyleKey": "9896be5d411a8bb15e563be07d2447ffaa2f5f9d"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8588,
+                0.6627,
+                0.2627
+              ],
+              "alpha": 1,
+              "hex": "#DBA943"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9843,
+                0.902,
+                0.4824
+              ],
+              "alpha": 1,
+              "hex": "#FBE67B"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9608,
+                0.8863,
+                0.5333
+              ],
+              "alpha": 1,
+              "hex": "#F5E288"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9686,
+                0.8196,
+                0.3059
+              ],
+              "alpha": 1,
+              "hex": "#F7D14E"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8314,
+                0.6275,
+                0.2549
+              ],
+              "alpha": 1,
+              "hex": "#D4A041"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #DBA943 0%, #FBE67B 33%, #F5E288 54%, #F7D14E 77%, #D4A041 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Dark/mk-icon-nav-gradient",
+            "figmaStyleKey": "595694e7e85105bcb1b7ed7eddf246891aa6ab3b"
+          }
+        }
+      }
+    },
+    "ftn-light": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9373,
+                0.9373,
+                0.9412
+              ],
+              "alpha": 1,
+              "hex": "#EFEFF0"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #EFEFF0 0%, #FFFFFF 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "FTN Light/gradient",
+            "figmaStyleKey": "ed41ad45e6d65ad60ffcb7545031761c18fc5f80"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "FTN Light/overlay-gradient",
+            "figmaStyleKey": "b9e940aa80094bca6b6afe5cb618a02b4204645c"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.7,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%)",
+            "owner": "Product",
+            "figmaStyle": "FTN Light/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "445be7cecf8cc8c2825743853a0059c93a18fb34"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#0125FF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0.1,
+              "hex": "#0125FF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(1, 37, 255, 0) 0%, rgba(1, 37, 255, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Light/mk-ako-card",
+            "figmaStyleKey": "f4494b79896dd5bcbdeef1b1f9d1aeacf9be0682"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0,
+              "hex": "#FFDB01"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                0.8588,
+                0.0039
+              ],
+              "alpha": 0.2,
+              "hex": "#FFDB01"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(255, 219, 1, 0) 0%, rgba(255, 219, 1, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Light/mk-wc-ako-card",
+            "figmaStyleKey": "f0bb22ea2e340aff4426aa8939815e2cc9c46ef4"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#0125FF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0039,
+                0.1451,
+                1.0
+              ],
+              "alpha": 0.25,
+              "hex": "#0125FF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(1, 37, 255, 0) 0%, rgba(1, 37, 255, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Light/mk-cas-cs-card",
+            "figmaStyleKey": "d4f8149910bb82364160c4490ebd5102f24c772f"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0.1,
+              "hex": "#353535"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0,
+              "hex": "#353535"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(53, 53, 53, 0.1) 0%, rgba(53, 53, 53, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Light/mk-card-gradient-1",
+            "figmaStyleKey": "f100fb1c04c1a57ef336baa03cfa668d8be9f4b9"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2039,
+                0.4863,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#347CFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3961,
+                0.6078,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#659BFF"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5059,
+                0.6784,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#81ADFF"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3098,
+                0.549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#4F8CFF"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1529,
+                0.4549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#2774FF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #347CFF 0%, #659BFF 33%, #81ADFF 54%, #4F8CFF 77%, #2774FF 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "FTN Light/mk-icon-nav-gradient",
+            "figmaStyleKey": "be9669ea6e5f962c244b5bad072797e1e64e90cf"
+          }
+        }
+      }
+    },
+    "cp-light": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9373,
+                0.9373,
+                0.9412
+              ],
+              "alpha": 1,
+              "hex": "#EFEFF0"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #EFEFF0 0%, #FFFFFF 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "CP Light/gradient",
+            "figmaStyleKey": "624529481dfd5b6ed0ae81220813fdf55004985b"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "CP Light/overlay-gradient",
+            "figmaStyleKey": "2a16b6d48384925688110b3369b66d07f38f24dd"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.7,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%)",
+            "owner": "Product",
+            "figmaStyle": "CP Light/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "7a43245afdf50f4c962a45dbf560316db72f8939"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.1,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Light/mk-ako-card",
+            "figmaStyleKey": "f7941b916b4c7243ec61780d2d84c1d96485ee22"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.2,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Light/mk-wc-ako-card",
+            "figmaStyleKey": "d40f11b0d0993fcc503bb338bd628b4cd853368e"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.25,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Light/mk-cas-cs-card",
+            "figmaStyleKey": "5a3eb74ea1753ff7d29fe7ef063b2f1d8317f7ba"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0.1,
+              "hex": "#353535"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0,
+              "hex": "#353535"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(53, 53, 53, 0.1) 0%, rgba(53, 53, 53, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Light/mk-card-gradient-1",
+            "figmaStyleKey": "8432640d6f23ed2cb2f3c9677d6b3df0e02a19a4"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9529,
+                0.251,
+                0.2745
+              ],
+              "alpha": 1,
+              "hex": "#F34046"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8902,
+                0.3765,
+                0.3922
+              ],
+              "alpha": 1,
+              "hex": "#E36064"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.949,
+                0.5137,
+                0.5294
+              ],
+              "alpha": 1,
+              "hex": "#F28387"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.902,
+                0.3333,
+                0.349
+              ],
+              "alpha": 1,
+              "hex": "#E65559"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9451,
+                0.2431,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#F13E44"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #F34046 0%, #E36064 33%, #F28387 54%, #E65559 77%, #F13E44 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Light/mk-icon-nav-gradient",
+            "figmaStyleKey": "c825eae5a04b930b2724c2232c76644d8ff3770b"
+          }
+        }
+      }
+    },
+    "cp-dark": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1804,
+                0.1804,
+                0.2196
+              ],
+              "alpha": 1,
+              "hex": "#2E2E38"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #2E2E38 0%, #3B3B44 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "CP Dark/gradient",
+            "figmaStyleKey": "ad08f606cb0809c807d875183c99ea352d7179d4"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "CP Dark/overlay-gradient",
+            "figmaStyleKey": "87db5e914fba6993af26dccea8daa1d5f6539184"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 0.7,
+              "hex": "#3B3B44"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(59, 59, 68, 0.7) 0%, #3B3B44 100%)",
+            "owner": "Product",
+            "figmaStyle": "CP Dark/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "c40c99b7ae91d563a02ee94ef422ee908ddf6fb6"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.1,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Dark/mk-ako-card",
+            "figmaStyleKey": "04e65f144054d10166e724e75a92a423a9218385"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.2,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Dark/mk-wc-ako-card",
+            "figmaStyleKey": "d82b20e96415c1ec57d69dd00c71d4117b6f2144"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0,
+              "hex": "#D2252A"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8235,
+                0.1451,
+                0.1647
+              ],
+              "alpha": 0.25,
+              "hex": "#D2252A"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(210, 37, 42, 0) 0%, rgba(210, 37, 42, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Dark/mk-cas-cs-card",
+            "figmaStyleKey": "4cbea7a1b5e332560676a8c6952046e72adb74b7"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.1,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Dark/mk-card-gradient-1",
+            "figmaStyleKey": "0d47ad07d11c96c0e7d9f5a22aea02f95f801898"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9529,
+                0.251,
+                0.2745
+              ],
+              "alpha": 1,
+              "hex": "#F34046"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.8902,
+                0.3765,
+                0.3922
+              ],
+              "alpha": 1,
+              "hex": "#E36064"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.949,
+                0.5137,
+                0.5294
+              ],
+              "alpha": 1,
+              "hex": "#F28387"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.902,
+                0.3333,
+                0.349
+              ],
+              "alpha": 1,
+              "hex": "#E65559"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9451,
+                0.2431,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#F13E44"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #F34046 0%, #E36064 33%, #F28387 54%, #E65559 77%, #F13E44 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "CP Dark/mk-icon-nav-gradient",
+            "figmaStyleKey": "e2a84b32a0858de640c6598b37180158b293e772"
+          }
+        }
+      }
+    },
+    "psk-light": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.9373,
+                0.9373,
+                0.9412
+              ],
+              "alpha": 1,
+              "hex": "#EFEFF0"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #EFEFF0 0%, #FFFFFF 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "PSK Light/gradient",
+            "figmaStyleKey": "04854dd304c3fc1fd307552916fb2517bbd3bbe8"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "PSK Light/overlay-gradient",
+            "figmaStyleKey": "b6b67195623cb652add041ecfe243b7ad9cd88fa"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.7,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%)",
+            "owner": "Product",
+            "figmaStyle": "PSK Light/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "8d4e0527ac7f387160206629feea3fb8e6b6baaf"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.1,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Light/mk-ako-card",
+            "figmaStyleKey": "5a674b87a31395d6f121476a1542c8649c81f450"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.2,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Light/mk-wc-ako-card",
+            "figmaStyleKey": "876642ad3cedc16e69ef3bfcac90af6bd804aede"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.25,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Light/mk-cas-cs-card",
+            "figmaStyleKey": "c9e343b79078b8b304917d687804a2f4a79a8493"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0.1,
+              "hex": "#353535"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2078,
+                0.2078,
+                0.2078
+              ],
+              "alpha": 0,
+              "hex": "#353535"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(53, 53, 53, 0.1) 0%, rgba(53, 53, 53, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Light/mk-card-gradient-1",
+            "figmaStyleKey": "5d29959d727d6395888d255d68bb7c0a50ac8c67"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2039,
+                0.4863,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#347CFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3961,
+                0.6078,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#659BFF"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5059,
+                0.6784,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#81ADFF"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3098,
+                0.549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#4F8CFF"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1529,
+                0.4549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#2774FF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #347CFF 0%, #659BFF 33%, #81ADFF 54%, #4F8CFF 77%, #2774FF 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Light/mk-icon-nav-gradient",
+            "figmaStyleKey": "afe22c626ada6c03895d985a9cd55c54103bb8f8"
+          }
+        }
+      }
+    },
+    "psk-dark": {
+      "gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1804,
+                0.1804,
+                0.2196
+              ],
+              "alpha": 1,
+              "hex": "#2E2E38"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for gradient fills on surfaces.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, #2E2E38 0%, #3B3B44 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "PSK Dark/gradient",
+            "figmaStyleKey": "f5e19798fd9a2dddf2781e0ec0dce75d20fa83af"
+          }
+        }
+      },
+      "overlay-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0.4,
+              "hex": "#000000"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "alpha": 0,
+              "hex": "#000000"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used for a gradient overlay effect.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+            "owner": "Foundation",
+            "figmaStyle": "PSK Dark/overlay-gradient",
+            "figmaStyleKey": "a532ad59c42127223dc409b406d3ec8f22cbeaee"
+          }
+        }
+      },
+      "overlay-gradient-primary-on-avatar-edit": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 0.7,
+              "hex": "#3B3B44"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2314,
+                0.2314,
+                0.2667
+              ],
+              "alpha": 1,
+              "hex": "#3B3B44"
+            },
+            "position": 1
+          }
+        ],
+        "$description": "Used on a primary gradient overlay specifically for avatar editing.",
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top",
+            "angle": 0,
+            "css": "linear-gradient(to top, rgba(59, 59, 68, 0.7) 0%, #3B3B44 100%)",
+            "owner": "Product",
+            "figmaStyle": "PSK Dark/overlay-gradient-primary-on-avatar-edit",
+            "figmaStyleKey": "c031afd04917718cf28e99cbfeaee83f6b891493"
+          }
+        }
+      },
+      "mk-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.1,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.1) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Dark/mk-ako-card",
+            "figmaStyleKey": "e87dcada30c6887096fa66038a1517a50893ecda"
+          }
+        }
+      },
+      "mk-wc-ako-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.2,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.2) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Dark/mk-wc-ako-card",
+            "figmaStyleKey": "32a70ae65beb490be825bb08aa5ab03456c4d902"
+          }
+        }
+      },
+      "mk-cas-cs-card": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0,
+              "hex": "#1752BF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.0902,
+                0.3216,
+                0.749
+              ],
+              "alpha": 0.25,
+              "hex": "#1752BF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to right",
+            "angle": 90,
+            "css": "linear-gradient(to right, rgba(23, 82, 191, 0) 0%, rgba(23, 82, 191, 0.25) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Dark/mk-cas-cs-card",
+            "figmaStyleKey": "7c76bee9e0b577ad0837f26ee53df64663e45d2c"
+          }
+        }
+      },
+      "mk-card-gradient-1": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0.1,
+              "hex": "#FFFFFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "alpha": 0,
+              "hex": "#FFFFFF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to left",
+            "angle": 270,
+            "css": "linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Dark/mk-card-gradient-1",
+            "figmaStyleKey": "6d0b38d8d70e107b0e208267a72d7fe3cba4d107"
+          }
+        }
+      },
+      "mk-icon-nav-gradient": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.2039,
+                0.4863,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#347CFF"
+            },
+            "position": 0
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3961,
+                0.6078,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#659BFF"
+            },
+            "position": 0.33
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.5059,
+                0.6784,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#81ADFF"
+            },
+            "position": 0.54
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.3098,
+                0.549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#4F8CFF"
+            },
+            "position": 0.77
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0.1529,
+                0.4549,
+                1.0
+              ],
+              "alpha": 1,
+              "hex": "#2774FF"
+            },
+            "position": 1
+          }
+        ],
+        "$extensions": {
+          "com.feg.nds": {
+            "kind": "linear",
+            "direction": "to top left",
+            "angle": 315,
+            "css": "linear-gradient(to top left, #347CFF 0%, #659BFF 33%, #81ADFF 54%, #4F8CFF 77%, #2774FF 100%)",
+            "owner": "Marketing",
+            "figmaStyle": "PSK Dark/mk-icon-nav-gradient",
+            "figmaStyleKey": "90b741212102bd762c82053c93664b1cf720d726"
+          }
+        }
+      }
+    }
+  }
+}
