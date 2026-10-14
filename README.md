@@ -2,10 +2,17 @@
 
 This is a temporary handoff area for NDS design tokens that the colour variables pipeline does not cover yet. For now it contains the **gradients**.
 
-| File | What it is |
+| Path | What it is |
 |---|---|
 | `tokens/gradients.json` | Gradient tokens with structured colour stops. Use this for tooling or for JS/TS. |
 | `dist/gradients.css` | Ready-to-use CSS custom properties, scoped by brand and theme. |
+| `source/figma-gradient-styles.json` | Raw snapshot of the Figma gradient paint styles. This is the input to the build. |
+| `scripts/figma-plugin/` | Figma exporter that produces the snapshot (development plugin, no network access). |
+| `scripts/build-gradients.mjs` | Builds `tokens/` and `dist/` from the snapshot. |
+| `scripts/validate-gradients.mjs` | Checks `tokens/` and `dist/` against the snapshot. |
+| `docs/gradient-inventory.md` | Why 48 gradients, and which legacy styles are excluded. |
+
+The scripts need Node 18 or newer. There are no dependencies and no `npm install`.
 
 ## Source
 
@@ -102,7 +109,7 @@ The directions are therefore written as keywords, not fixed angles, so the resul
 
 ## Validation
 
-The output was checked against the Figma styles. All 48 styles passed with 0 differences.
+`scripts/validate-gradients.mjs` checks the output against the Figma snapshot. All 48 styles pass with 0 differences.
 
 - **Colours:** every stop colour matches the 8-bit Figma value exactly.
 - **Opacity:** every stop alpha matches exactly.
@@ -114,18 +121,39 @@ The output was checked against the Figma styles. All 48 styles passed with 0 dif
   - Box sizes: 100x100, 300x100, 100x300, 343x96 and 40x40.
   - Result: identical within floating-point precision (largest deviation 5.6e-16).
 
-## Updating
+## Regenerating when Figma changes
 
-These files are generated from Figma. Do not edit them by hand.
+These files are generated. Do not edit `tokens/` or `dist/` by hand.
 
-When a gradient style changes in Figma:
-1. Re-export both files.
-2. Re-run the validation.
-3. Open a pull request.
+1. **Export from Figma.** Open the canonical library (NDS / Tokens / Variables library) in the Figma desktop app.
+   - Go to Plugins > Development > Import plugin from manifest, and pick `scripts/figma-plugin/manifest.json`.
+   - Run **NDS Gradient Export**.
+   - Copy the JSON from the window into `source/figma-gradient-styles.json`, replacing its contents.
+   - The plugin only reads paint styles. It does not change the file and has no network access.
+2. **Build.**
+   ```sh
+   node scripts/build-gradients.mjs
+   ```
+3. **Validate.**
+   ```sh
+   node scripts/validate-gradients.mjs
+   ```
+   This must print `OK`. It exits with code 1 if anything differs from the snapshot.
+4. **Review.** Open a pull request with the changed `source/`, `tokens/` and `dist/` files. There is no automated publishing.
 
-There is no automated publishing.
+**The build stops with an error, rather than guessing, if a style:**
+- has more than one paint
+- is radial or angular
+- uses paint opacity or a blend mode
+- has a direction that is not a side or corner of the box
+
+Extend the scripts before exporting such a style.
 
 ## Not included
 
-- **AI border colours:** `mk-ai-border-start`, `mk-ai-border-mid` and `mk-ai-border-end` are solid colours, not gradients.
+The canonical library has 48 gradient paint styles, and all 48 are exported. The legacy Sportsbook inventory lists 72 gradient-related styles. The other 24 are **not gradients**.
+
+- **`mk-ai-border-start/mid/end`:** 24 solid colour styles, the colour stops of the AI border. That is 3 tokens x 6 brand/theme combinations, plus 2 duplicate copies in PSK Dark. They were not migrated into the canonical library.
 - **LobBet:** there are no LobBet gradient styles in Figma yet.
+
+Full reconciliation with style keys: `docs/gradient-inventory.md`.
