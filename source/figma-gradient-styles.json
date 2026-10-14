@@ -1,0 +1,2333 @@
+{
+  "source": {
+    "library": "NDS / Tokens / Variables library",
+    "fileKey": "RKduL8UHSJyIMVyotTzSZS"
+  },
+  "exportedAt": "2026-10-14T15:16:55.713Z",
+  "paintStyleCount": 48,
+  "gradientStyles": [
+    {
+      "name": "FTN Dark/gradient",
+      "key": "163082dde17c5de85028696685602c160ef9b9c4",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 46,
+                "g": 46,
+                "b": 56,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/gradient",
+      "key": "ed41ad45e6d65ad60ffcb7545031761c18fc5f80",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 239,
+                "g": 239,
+                "b": 240,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/gradient",
+      "key": "624529481dfd5b6ed0ae81220813fdf55004985b",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 239,
+                "g": 239,
+                "b": 240,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/gradient",
+      "key": "ad08f606cb0809c807d875183c99ea352d7179d4",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 46,
+                "g": 46,
+                "b": 56,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/gradient",
+      "key": "04854dd304c3fc1fd307552916fb2517bbd3bbe8",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 239,
+                "g": 239,
+                "b": 240,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/gradient",
+      "key": "f5e19798fd9a2dddf2781e0ec0dce75d20fa83af",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for gradient fills on surfaces.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 46,
+                "g": 46,
+                "b": 56,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/overlay-gradient",
+      "key": "255ff8e0ea77f4da1247dcbbc7e487ecee44d566",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/overlay-gradient",
+      "key": "b9e940aa80094bca6b6afe5cb618a02b4204645c",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/overlay-gradient",
+      "key": "2a16b6d48384925688110b3369b66d07f38f24dd",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/overlay-gradient",
+      "key": "87db5e914fba6993af26dccea8daa1d5f6539184",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/overlay-gradient",
+      "key": "b6b67195623cb652add041ecfe243b7ad9cd88fa",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/overlay-gradient",
+      "key": "a532ad59c42127223dc409b406d3ec8f22cbeaee",
+      "description": "KEEP AS STYLE: owner: Foundation\nUsed for a gradient overlay effect.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.4
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/overlay-gradient-primary-on-avatar-edit",
+      "key": "dcb32dd4331b2ed6f57db0b6f93c283248b284cd",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/overlay-gradient-primary-on-avatar-edit",
+      "key": "445be7cecf8cc8c2825743853a0059c93a18fb34",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/overlay-gradient-primary-on-avatar-edit",
+      "key": "7a43245afdf50f4c962a45dbf560316db72f8939",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/overlay-gradient-primary-on-avatar-edit",
+      "key": "c40c99b7ae91d563a02ee94ef422ee908ddf6fb6",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/overlay-gradient-primary-on-avatar-edit",
+      "key": "8d4e0527ac7f387160206629feea3fb8e6b6baaf",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/overlay-gradient-primary-on-avatar-edit",
+      "key": "c031afd04917718cf28e99cbfeaee83f6b891493",
+      "description": "KEEP AS STYLE: owner: Product\nUsed on a primary gradient overlay specifically for avatar editing.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              0,
+              -1,
+              1
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 0.7
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 59,
+                "g": 59,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/mk-ako-card",
+      "key": "8cfbca0b32faeb8266e836cdde534651b944ca76",
+      "description": "KEEP AS STYLE: owner: Marketing\nUsed for the primary brand surface.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/mk-ako-card",
+      "key": "f4494b79896dd5bcbdeef1b1f9d1aeacf9be0682",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/mk-ako-card",
+      "key": "f7941b916b4c7243ec61780d2d84c1d96485ee22",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/mk-ako-card",
+      "key": "04e65f144054d10166e724e75a92a423a9218385",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/mk-ako-card",
+      "key": "5a674b87a31395d6f121476a1542c8649c81f450",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/mk-ako-card",
+      "key": "e87dcada30c6887096fa66038a1517a50893ecda",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/mk-wc-ako-card",
+      "key": "560c839d68678a872ee57d2da3e2b4442dee740e",
+      "description": "KEEP AS STYLE: owner: Marketing\nUsed for the primary brand surface.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/mk-wc-ako-card",
+      "key": "f0bb22ea2e340aff4426aa8939815e2cc9c46ef4",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/mk-wc-ako-card",
+      "key": "d40f11b0d0993fcc503bb338bd628b4cd853368e",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/mk-wc-ako-card",
+      "key": "d82b20e96415c1ec57d69dd00c71d4117b6f2144",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/mk-wc-ako-card",
+      "key": "876642ad3cedc16e69ef3bfcac90af6bd804aede",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/mk-wc-ako-card",
+      "key": "32a70ae65beb490be825bb08aa5ab03456c4d902",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/mk-cas-cs-card",
+      "key": "ee2820c0b3b5686a14c5be245fb780e5e001610a",
+      "description": "KEEP AS STYLE: owner: Marketing\nUsed for the primary brand surface.",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 219,
+                "b": 1,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/mk-cas-cs-card",
+      "key": "d4f8149910bb82364160c4490ebd5102f24c772f",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 1,
+                "g": 37,
+                "b": 255,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/mk-cas-cs-card",
+      "key": "5a3eb74ea1753ff7d29fe7ef063b2f1d8317f7ba",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/mk-cas-cs-card",
+      "key": "4cbea7a1b5e332560676a8c6952046e72adb74b7",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 210,
+                "g": 37,
+                "b": 42,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/mk-cas-cs-card",
+      "key": "c9e343b79078b8b304917d687804a2f4a79a8493",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/mk-cas-cs-card",
+      "key": "7c76bee9e0b577ad0837f26ee53df64663e45d2c",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 23,
+                "g": 82,
+                "b": 191,
+                "a": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/mk-card-gradient-1",
+      "key": "9896be5d411a8bb15e563be07d2447ffaa2f5f9d",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/mk-card-gradient-1",
+      "key": "f100fb1c04c1a57ef336baa03cfa668d8be9f4b9",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/mk-card-gradient-1",
+      "key": "8432640d6f23ed2cb2f3c9677d6b3df0e02a19a4",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/mk-card-gradient-1",
+      "key": "0d47ad07d11c96c0e7d9f5a22aea02f95f801898",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/mk-card-gradient-1",
+      "key": "5d29959d727d6395888d255d68bb7c0a50ac8c67",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 53,
+                "g": 53,
+                "b": 53,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/mk-card-gradient-1",
+      "key": "6d0b38d8d70e107b0e208267a72d7fe3cba4d107",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -1,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              1
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0.1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Dark/mk-icon-nav-gradient",
+      "key": "595694e7e85105bcb1b7ed7eddf246891aa6ab3b",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 219,
+                "g": 169,
+                "b": 67,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 251,
+                "g": 230,
+                "b": 123,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 245,
+                "g": 226,
+                "b": 136,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 247,
+                "g": 209,
+                "b": 78,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 212,
+                "g": 160,
+                "b": 65,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FTN Light/mk-icon-nav-gradient",
+      "key": "be9669ea6e5f962c244b5bad072797e1e64e90cf",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 52,
+                "g": 124,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 101,
+                "g": 155,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 129,
+                "g": 173,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 79,
+                "g": 140,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 39,
+                "g": 116,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Light/mk-icon-nav-gradient",
+      "key": "c825eae5a04b930b2724c2232c76644d8ff3770b",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 243,
+                "g": 64,
+                "b": 70,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 227,
+                "g": 96,
+                "b": 100,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 242,
+                "g": 131,
+                "b": 135,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 230,
+                "g": 85,
+                "b": 89,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 241,
+                "g": 62,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CP Dark/mk-icon-nav-gradient",
+      "key": "e2a84b32a0858de640c6598b37180158b293e772",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 243,
+                "g": 64,
+                "b": 70,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 227,
+                "g": 96,
+                "b": 100,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 242,
+                "g": 131,
+                "b": 135,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 230,
+                "g": 85,
+                "b": 89,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 241,
+                "g": 62,
+                "b": 68,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Light/mk-icon-nav-gradient",
+      "key": "afe22c626ada6c03895d985a9cd55c54103bb8f8",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 52,
+                "g": 124,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 101,
+                "g": 155,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 129,
+                "g": 173,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 79,
+                "g": 140,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 39,
+                "g": 116,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSK Dark/mk-icon-nav-gradient",
+      "key": "90b741212102bd762c82053c93664b1cf720d726",
+      "description": "KEEP AS STYLE: owner: Marketing",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientTransform": [
+            [
+              -0.5,
+              -0.5,
+              1
+            ],
+            [
+              0.5,
+              -0.5,
+              0.5
+            ]
+          ],
+          "gradientStops": [
+            {
+              "position": 0,
+              "color": {
+                "r": 52,
+                "g": 124,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.33,
+              "color": {
+                "r": 101,
+                "g": 155,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.54,
+              "color": {
+                "r": 129,
+                "g": 173,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 0.77,
+              "color": {
+                "r": 79,
+                "g": 140,
+                "b": 255,
+                "a": 1
+              }
+            },
+            {
+              "position": 1,
+              "color": {
+                "r": 39,
+                "g": 116,
+                "b": 255,
+                "a": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excludedStyles": []
+}
